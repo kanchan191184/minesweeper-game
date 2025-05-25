@@ -2,7 +2,6 @@ package minesweeper;
 
 public class WinChecker {
     public static boolean checkWin(Board board, boolean[][] revealed) {
-        // int size = revealed.length;
         int size = board.getBoardSize();
         
         for(int i = 0; i < size; i++) {

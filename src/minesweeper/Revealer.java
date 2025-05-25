@@ -2,7 +2,6 @@ package minesweeper;
 
 public class Revealer {
     public static void revealEmptyCells(Board board, boolean[][] revealed, int row, int col) {
-        // int size = revealed.length;
         int size = board.getBoardSize();
         
         if(row < 0 || row >= size || col < 0 || col >= size) return;

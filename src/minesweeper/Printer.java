@@ -38,7 +38,6 @@ public class Printer {
     }
 
     public static void printVisibleBoard(Board board, boolean[][] revealed) {
-        // int size = revealed.length;
         int size = board.getBoardSize();
 
         System.out.print("   ");
